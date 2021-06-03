@@ -95,10 +95,39 @@ a:hover {
   background-size: 100% .85em;
 }
 
+@media (prefers-color-scheme: light) {
+  body {
+    color: #131210;
+  background: #FCFBF7;
+  }
+
+  body a {
+    color: #2EC4B6;
+  }
+
+  .card {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 20px rgba(30,26,11,0.1);
+  border-radius: 8px;
+  margin: 50px auto;
+  text-align: center;
+  width: 500px;
+  }
+
+  h1 {
+  color: #131210;
+}
+
+  h2 {
+    color: #2EC4B6;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #FCFBF7;
-    background: #131210; /* rgb(13, 17, 23) */
+    background: #131210;
   }
 
   body a {
