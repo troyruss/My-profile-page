@@ -1,0 +1,145 @@
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #131210;
+}
+
+h2 {
+  color: #2EC4B6;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  color: #131210;
+  background: #FCFBF7;
+  line-height: 30px;
+}
+
+a {
+  color: #2EC4B6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2BB6A8;
+  text-decoration: none;
+}
+
+
+.card {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 20px rgba(30,26,11,0.1);
+  border-radius: 8px;
+  margin: 50px auto;
+  text-align: center;
+  width: 500px;
+}
+
+.img-circle {
+  width:100px;
+  height:100px;
+  object-fit:cover;
+  border-radius: 50%;
+}
+
+.button {
+  background-color: #5465FF;
+  color: white;
+  padding: 15px 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  color: white;
+  background-color: #475AFF;
+  padding: 15px 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #A29C90;
+}
+.list-inline i:hover {
+  color: #59544A;
+}
+
+#intro p {
+  margin-bottom: 30px;
+}
+
+.underline--magical {
+  background-image: linear-gradient(120deg, #2EC4B6 0%, #475AFF 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.3em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-out;
+}
+
+.underline--magical:hover {
+  background-size: 100% .85em;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #FCFBF7;
+    background: #131210; /* rgb(13, 17, 23) */
+  }
+
+  body a {
+    color: #809fff;
+  }
+
+  .card {
+  background-color: #1b1b24;
+  padding: 30px;
+  box-shadow: 0px 10px 20px rgba(27, 47, 94, 0.15);
+  border-radius: 8px;
+  margin: 50px auto;
+  text-align: center;
+  width: 500px;
+  }
+
+  h1 {
+  color: #FCFBF7;
+}
+
+h2 {
+  color: #2BAEA2;
+}
+}
+
