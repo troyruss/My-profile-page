@@ -112,6 +112,12 @@ a:hover {
   .card {
     width: 300px;
   }
+
+@media (max-width: 320px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 220px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -142,4 +148,3 @@ h2 {
   color: #2BAEA2;
 }
 }
-
